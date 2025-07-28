@@ -75,7 +75,7 @@ const CreateApp = () => {
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="flex items-center space-x-4 ">
-                <div className="flex flex-row-reverse items-center justify-between p-4 border-border rounded-lg bg-secondary/50 border border-[#2758d1] w-1/3">
+                <div className="flex flex-row-reverse items-center justify-between p-4 rounded-lg bg-secondary/50 border border-[#2758d1] w-1/3">
                   <Github className="w-8 h-8 text-foreground" />
                   <div>
                     <p className="font-medium text-foreground">GitHub</p>
@@ -86,7 +86,7 @@ const CreateApp = () => {
                 <div className="flex flex-row-reverse items-center justify-between p-4 border-border rounded-lg bg-secondary/50 border w-1/3">
                   <Gitlab className="w-8 h-8 text-foreground" />
                   <div>
-                    <p className="font-medium text-foreground">GitHub</p>
+                    <p className="font-medium text-foreground">Gitlab</p>
                     <p className="text-muted-foreground">Not Connected</p>
                   </div>
                   
